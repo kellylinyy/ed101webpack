@@ -1,6 +1,6 @@
 body {
-    background-color: brown;
-}
-h1 {
-    color: yellow;
-}
+  background-color: brown; }
+  body h1 {
+    color: red;
+    font-size: 100px; }
+

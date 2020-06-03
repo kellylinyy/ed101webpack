@@ -10,7 +10,7 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.css$/,
+            test: /\.(sass|scss|css)$/, //修改成scss 可以讀的檔案
             use: [{
                     loader: MiniCssExtractPlugin.loader,
                     options: {
@@ -20,10 +20,13 @@ module.exports = {
                     },
                 },
                 {
-                    loader: "css-loader", //(順序1)
+                    loader: "css-loader", //(順序2)
                     options: {
                         modules: true,
                     },
+                },
+                {
+                    loader: "sass-loader", //順序1
                 },
             ],
         }, ],

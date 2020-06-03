@@ -97,6 +97,17 @@ eval("function calculate(n) {\r\n    return n * 100 + \"unit\";\r\n}\r\n\r\nvar 
 
 /***/ }),
 
+/***/ "./src/header.css":
+/*!************************!*\
+  !*** ./src/header.css ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (1:3)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> h1 {\\n|     color: yellow;\\n| }\");\n\n//# sourceURL=webpack:///./src/header.css?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -105,18 +116,18 @@ eval("function calculate(n) {\r\n    return n * 100 + \"unit\";\r\n}\r\n\r\nvar 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/style.scss */ \"./src/sass/style.scss\");\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n// import \"./style.css\";\r\n// import \"./header.css\";\r\n\r\n\r\nvar obj = __webpack_require__(/*! ./cal */ \"./src/cal.js\");\r\n\r\nconsole.log(obj.cal(10));\r\nconsole.log(obj.name);\r\n// console.log('ok');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.css */ \"./src/header.css\");\n/* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_header_css__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\nvar obj = __webpack_require__(/*! ./cal */ \"./src/cal.js\");\r\n\r\nconsole.log(obj.cal(10));\r\nconsole.log(obj.name);\r\n// console.log('ok');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/sass/style.scss":
-/*!*****************************!*\
-  !*** ./src/sass/style.scss ***!
-  \*****************************/
+/***/ "./src/style.css":
+/*!***********************!*\
+  !*** ./src/style.css ***!
+  \***********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/style.scss?");
+eval("throw new Error(\"Module parse failed: Unexpected token (1:5)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> body {\\n|     background-color: brown;\\n|     h1 {\");\n\n//# sourceURL=webpack:///./src/style.css?");
 
 /***/ })
 
