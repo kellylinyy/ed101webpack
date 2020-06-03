@@ -102,9 +102,9 @@ eval("function calculate(n) {\r\n    return n * 100 + \"unit\";\r\n}\r\n\r\nvar 
   !*** ./src/header.css ***!
   \************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/header.css?");
+eval("throw new Error(\"Module parse failed: Unexpected token (1:3)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> h1 {\\n|     color: white;\\n| }\");\n\n//# sourceURL=webpack:///./src/header.css?");
 
 /***/ }),
 
@@ -125,9 +125,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   !*** ./src/style.css ***!
   \***********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style.css?");
+eval("throw new Error(\"Module parse failed: Unexpected token (1:5)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> body {\\n|     background-color: brown;\\n| }\");\n\n//# sourceURL=webpack:///./src/style.css?");
 
 /***/ })
 
